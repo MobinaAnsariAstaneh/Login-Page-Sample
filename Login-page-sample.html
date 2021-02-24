@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arash web - Login page sample</title>
+</head>
+
+<body>
+    <header class="banner">
+        <h1>Login Page Sample</h1>
+        <p>welcome</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="archive.html">Login</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <article>
+                <form action="#" oninput="result.value=parseInt(a.value)+parseInt(b.value)">
+                    <p>Complete your information to enter the <bdi>main</bdi> page</p>
+                    <input type="text" placeholder="Username" name="username" />
+                    <input type="email" placeholder="Email" name="email" />
+                    <input type="tel" placeholder="Phone Number" name="phone" />
+                    <input type="password" placeholder="Password" name="password" />
+                    <input type="password" placeholder="Repeat Password" name="repeat password">
+                    <input type="text" list="gender" placeholder="Select your gender"><br>
+                    <label for="#">Select your gender :
+                        <input type="radio" value="male" name="gender"> male
+                        <input type="radio" value="female" name="gender"> female
+                    </label> <br>
+                    <label for="#">Select your Country :
+                        <select>
+                            <option value="iran">Iran</option>
+                            <option value="tyrkey">Turkey</option>
+                            <option value="america">America</option>
+                            <option value="india" disabled>India</option>
+                            <option value="china">China</option>
+                            <option value="korea" disabled>Korea</option>
+                          </select>
+                    </label>
+                    </option>
+                    <br>
+                    <button type="submit" value="Submit">Sign in</button>
+                    <button type="reset" value="Reset">Reset</button>
+                    <br><br>
+                    <textarea name="txt" cols="107" rows="7" placeholder="Details ..."></textarea>
+                    <a href="#">
+                        <p> Don't have an account? Register </p>
+                    </a>
+                    <p>How satisfied are you with this page?</p>
+                    <input type="range" id="a" value="0"> +
+                    <input type="number" id="b" value="0"> =
+                    <output name="result" for="a b"></output>
+                </form>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Author: mobinaansariit@gmail.com</p>
+    </footer>
+
+
+</body>
+
+</html>
